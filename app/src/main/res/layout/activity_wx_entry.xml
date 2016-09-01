@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/main_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="授权并且登录"
+        />
+
+    <Button
+        android:id="@+id/main_check_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检验token是否有效"
+        />
+
+    <Button
+        android:id="@+id/main_token_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刷新微信token"
+        />
+    <Button
+        android:id="@+id/main_user_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="重新获取个人信息"
+        />
+</LinearLayout>
